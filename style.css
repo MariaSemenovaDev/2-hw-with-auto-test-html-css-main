@@ -82,11 +82,10 @@ select {
 .frameworks-list {
     /* Стили для маркированного списка во второй секции */
     list-style: none;
-    padding-left: 20px;
+    padding: 0px 20px;
     list-style-image: url(./solar_map-arrow-up-bold.svg);
     font-weight: 400;
     font-size: 16px;
-    
 }
 
 .books-list {
@@ -94,7 +93,6 @@ select {
     padding-left: 20px;
     font-weight: 400;
     font-size: 16px;
-    
 }
 
 .label {
@@ -148,7 +146,7 @@ table {
 
 th, td {
     /* Стили для ячеек таблицы */
-    padding: 11px 14px 12px;
+    padding: 12px 15px;
 }
 
 footer {
